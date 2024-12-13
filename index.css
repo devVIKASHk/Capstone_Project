@@ -1,0 +1,397 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+    font-family:"Chivo";
+
+}
+body{
+    background-color:black;
+    height:100vh;
+    width:100vw;
+    
+}
+header{
+    position:sticky;
+    top:0;
+    background-color: black;
+    /* width:100% */
+}
+
+.navbar{
+    
+    height:5vw;
+    border-bottom:2px solid white ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+
+}
+
+.subnav1{
+    height:100%;
+    width:15%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-left:25px;
+
+}
+.subnav2{
+    height:80%;
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding-right:40px;
+
+}
+.subnav2>a{
+    font-size:1.9vw;
+    text-decoration:none;
+    margin:15px;
+    font-weight:300;
+    color:white;
+
+    
+}
+/* .logo-img{
+    font-family: MuseoModerno;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: white;
+} */
+.logo-img{
+    background:url('../images/header_logo.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100%;
+    width:100%;
+
+}
+
+
+.main{
+    height:100%;
+    margin:10px;
+
+}
+.main-content{
+    height:25vw;
+    width:100%;
+    padding-top: 6vw;
+    
+    
+}
+
+
+
+.heading>h1{
+    font-size: 8.7vw;
+    text-align: center;
+    color:white
+
+    
+}
+.img-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sub-img{
+    height:50vw;
+    width:95%;
+    background-image:url('../images/body.png');
+    background-size: cover;
+    border-radius:20px;
+    margin-bottom: 6vw;
+}
+.part2{
+    height:100vw;
+    margin:10px 0;
+    
+    
+   
+}
+.img-section{
+    width:95%;
+    height: 100%;
+    margin:auto
+    
+    
+
+}
+.image{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom:3vw;
+    
+
+}
+.img:hover{
+    transform:scale(1.07)
+}
+.img{
+    height:27vw;
+    width:29vw;
+    transition-duration: 0.6s;
+}
+.image-insert{
+    height:80%;
+    width:100%;
+    
+    
+}
+
+
+.large{
+    font-size:1.5vw;
+    margin-top:0.3vw;
+    color:rgb(231, 226, 226)
+}
+.small{
+    font-size:1.3vw;
+    margin-top:2px;
+    color:rgb(174, 163, 163);
+}
+
+.middle{
+    height:3vw;
+    margin-top:5vw;
+}
+.submiddle{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.submiddle>h2{
+    font-size: 2vw;
+    color: white;
+}
+.submiddle>p{
+    font-size: 1.3vw;
+    margin-right:6vw;
+    color:rgb(233, 223, 223);
+}
+.part3{
+    height:30vw;
+
+    
+}
+.sub-part3{
+    height:100%;
+    width:95%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.sub-part3>h3{
+    color: rgb(255, 252, 252);
+    font-size: 2vw;
+}
+.box{
+    display:flex;
+    margin:1.5vw 0  1.3vw 0;
+}
+.button{
+    height:2.5vw;
+    width:24vw;
+    background-color:#928DD3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:8px;
+}
+.button:hover{
+    cursor:pointer;
+    border:1px solid whitesmoke
+
+}
+.button:active{
+    background-color: #9b98c7;
+}
+.button>button:active{
+    background-color:#9b98c7 ;
+    color:white;
+}
+.button>button{
+    font-size:1.1vw;
+    border:none;
+    background-color:#928DD3;
+    cursor:pointer;
+
+}
+.boxes{
+    height:4vw;
+    width:3.5vw;
+    background-color: black;
+    margin:0.2vw;
+    border-radius: 8px;
+    border:1.5px solid rgb(221, 213, 213);
+    color:rgb(111, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5sec;
+}
+.boxes:hover{
+    transform:scale(1.1)
+
+}
+.skip{
+    margin-top:1.5vw;
+    font-size: 0.9vw;
+    color:#928DD3;
+    background-color: black;
+    border:none;
+    cursor:pointer;
+}
+.skip:active{
+    color:white
+}
+
+h1{
+    font-size:3.5vw;
+    color:white;
+
+}
+
+
+
+
+.lower-part{
+    height:25vw;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sublower{
+    height:15vw;
+    width:95%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.boxs{
+    height:10vw;
+    width:20vw;
+    border:1.5px solid rgb(230, 222, 222);
+    border-radius: 10px;
+    display:flex;
+    transition-duration: 0.5s;
+
+}
+.boxs:hover{
+    transform:scale(1.2)
+
+}
+.imagebox{
+    height:4.5vw;
+    width:4.5vw;
+    border-radius: 50%;
+    background-color: black;
+    margin-left:0.8vw;
+    margin-top:1vw;
+}
+.name{
+    font-size:1.2vw;
+    font-weight: 600;
+    margin-top:1.2vw;
+    margin-left:0.3vw;
+    color:white;
+    overflow:hidden;
+}
+.occupation{
+    margin-left:0.3vw ;
+    color:rgb(226, 217, 217);
+    overflow:hidden;
+    font-size:1vw
+}
+.comment{
+    margin-top:1.5vw;
+    font-size: 1.5vw;
+    color:rgb(236, 231, 231);
+    overflow:hidden;
+}
+.footer{
+    height:10vw;
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top:3px solid rgb(235, 229, 229)
+}
+.footer-section{
+    height: 80%;
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.contact{
+    height:2.5vw;
+    width:8vw;
+    border:1px solid rgb(161, 159, 159);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom:0.3vw;
+    cursor:pointer;
+}
+.footer-item{
+    display:flex;
+
+
+}
+.footer-item>i{
+    font-size:1.4vw;
+    color:rgb(207, 205, 205);
+    position: relative;
+    top:0.5vw
+
+}
+.footer-item>p{
+    font-size:2vw;
+    margin-left:0.3vw;
+    color:rgb(215, 209, 209)
+}
+.contact>p>a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5vw;
+    font-weight:500;
+
+}
+.contact:hover{
+    background-color: white;
+}
+.contact>p>a:hover{
+    color:black
+
+}
+.contact:active{
+    transform:scale(0.8)
+}
+
+
+
+
+
+
+
