@@ -36,7 +36,7 @@ header{
     display:flex;
     justify-content: center;
     align-items:center;
-    margin-left:25px;
+    margin-left:2vw;
 
 }
 .subnav2{
@@ -45,13 +45,14 @@ header{
     display:flex;
     justify-content: flex-end;
     align-items:center;
-    padding-right:40px;
+    padding-right:2.5vw;
+    
 
 }
 .subnav2>a{
     font-size:1.9vw;
     text-decoration:none;
-    margin:15px;
+    margin:1vw;
     font-weight:300;
     color:white;
 
@@ -206,12 +207,12 @@ header{
 }
 .button{
     height:2.5vw;
-    width:24vw;
+    width:26vw;
     background-color:#928DD3;
     display:flex;
     justify-content: center;
     align-items: center;
-    border-radius:8px;
+    border-radius:0.6vw;
 }
 .button:hover{
     cursor:pointer;
@@ -236,10 +237,11 @@ header{
     height:4vw;
     width:3.5vw;
     background-color: black;
-    margin:0.2vw;
-    border-radius: 8px;
+    margin:0.3vw;
+    border-radius:0.5vw;
     border:1.5px solid rgb(221, 213, 213);
     color:rgb(111, 93, 93);
+    font-size:1.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,23 +282,35 @@ h1{
 }
 .sublower{
     height:15vw;
-    width:95%;
+    width:95vw;
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
+    /* overflow-x: auto; */
+    /* background-color: #928DD3; */
     
+    
+
+        
 }
+.slide{
+    display: flex;
+    overflow-x: auto;
+}
+
 .boxs{
     height:10vw;
-    width:20vw;
+    min-width:20vw;
     border:1.5px solid rgb(230, 222, 222);
-    border-radius: 10px;
+    border-radius: 1.2vw;
     display:flex;
     transition-duration: 0.5s;
+    margin :10px;
+    
 
 }
 .boxs:hover{
-    transform:scale(1.2)
+    transform:scale(1.1)
 
 }
 .imagebox{
@@ -304,19 +318,19 @@ h1{
     width:4.5vw;
     border-radius: 50%;
     background-color: black;
-    margin-left:0.8vw;
-    margin-top:1vw;
+    margin-left:1.3vw;
+    margin-top:1.5vw;
 }
 .name{
     font-size:1.2vw;
     font-weight: 600;
-    margin-top:1.2vw;
-    margin-left:0.3vw;
+    margin-top:1.8vw;
+    margin-left:0.5vw;
     color:white;
     overflow:hidden;
 }
 .occupation{
-    margin-left:0.3vw ;
+    margin-left:0.5vw ;
     color:rgb(226, 217, 217);
     overflow:hidden;
     font-size:1vw
@@ -344,13 +358,13 @@ h1{
     
 }
 .contact{
-    height:2.5vw;
+    height:2.9vw;
     width:8vw;
     border:1px solid rgb(161, 159, 159);
     display:flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 0.5vw;
     margin-bottom:0.3vw;
     cursor:pointer;
 }
@@ -369,9 +383,9 @@ h1{
 .footer-item>p{
     font-size:2vw;
     margin-left:0.3vw;
-    color:rgb(215, 209, 209)
+    color:rgb(186, 170, 170)
 }
-.contact>p>a{
+.contact a{
     text-decoration: none;
     color:white;
     font-size: 1.5vw;
@@ -381,7 +395,7 @@ h1{
 .contact:hover{
     background-color: white;
 }
-.contact>p>a:hover{
+.contact a:hover{
     color:black
 
 }
